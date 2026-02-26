@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace QPay.Tests;
 
 public class QPayExceptionTests
