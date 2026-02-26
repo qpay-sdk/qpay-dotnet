@@ -1,5 +1,6 @@
 # QPay .NET SDK
 
+[![CI](https://github.com/qpay-sdk/qpay-dotnet/actions/workflows/ci.yml/badge.svg)](https://github.com/qpay-sdk/qpay-dotnet/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 QPay V2 API client for .NET. Provides automatic token management, full async/await support, and covers all QPay V2 endpoints including invoices, payments, and ebarimt (electronic tax receipts).
