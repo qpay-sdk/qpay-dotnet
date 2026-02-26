@@ -8,11 +8,19 @@
 
     <PackageId>QPay</PackageId>
     <Version>1.0.0</Version>
-    <Authors>QPay .NET SDK Authors</Authors>
+    <Authors>qpay-sdk</Authors>
     <Description>QPay V2 API client for .NET. Provides auto token management, all QPay V2 endpoints, and async/await support.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>qpay;payment;mongolia;invoice</PackageTags>
+    <PackageTags>qpay;payment;mongolia;invoice;fintech</PackageTags>
+    <RepositoryUrl>https://github.com/qpay-sdk/qpay-dotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <ProjectUrl>https://github.com/qpay-sdk/qpay-dotnet</ProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/qpay-sdk/qpay-dotnet</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
