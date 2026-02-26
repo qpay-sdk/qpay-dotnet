@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>QPay</RootNamespace>
+
+    <PackageId>QPay</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>QPay .NET SDK Authors</Authors>
+    <Description>QPay V2 API client for .NET. Provides auto token management, all QPay V2 endpoints, and async/await support.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>qpay;payment;mongolia;invoice</PackageTags>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
